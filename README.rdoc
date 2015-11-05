@@ -1,0 +1,4 @@
+Simple Google Analytics Dashboard Demo.
+
+The goal of the app is to fetch google analytics data via their management API and show it on page.
+
