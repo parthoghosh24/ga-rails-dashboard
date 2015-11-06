@@ -1,1 +1,24 @@
 <h1>Google Analytics Demo</h1>
+<p>
+	<table>
+		<caption>Sample Analytics Data for Candeo</caption>
+		<thead>
+			<tr>
+				<th>OS</th>
+				<th>City</th>
+				<th>Sessions</th>
+				<th>Users</th>
+				<th>Page Views</th>
+			</tr>
+		</thead>
+		<tbody>
+			<%@rows.each do |row|%>
+				<tr>
+					<%row.each do |data|%>
+						<td><%=data%></td>
+					<%end%>
+				</tr>	
+			<%end%>	
+		</tbody>
+	</table>
+</p>
